@@ -1,0 +1,19 @@
+current directory: /Users/hoasung01/Documents/PersonalSpace/RailsSpace/PetProjects/book-sharing/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+/Users/hoasung01/.asdf/installs/ruby/3.3.3/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /Users/hoasung01/Documents/PersonalSpace/RailsSpace/PetProjects/book-sharing/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250522-8305-4f0tzp sitelibdir\=./.gem.20250522-8305-4f0tzp clean
+
+current directory: /Users/hoasung01/Documents/PersonalSpace/RailsSpace/PetProjects/book-sharing/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250522-8305-4f0tzp sitelibdir\=./.gem.20250522-8305-4f0tzp
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/hoasung01/Documents/PersonalSpace/RailsSpace/PetProjects/book-sharing/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250522-8305-4f0tzp sitelibdir\=./.gem.20250522-8305-4f0tzp install
+/opt/homebrew/bin/ginstall -c -m 0755 stringio.bundle ./.gem.20250522-8305-4f0tzp
+
+current directory: /Users/hoasung01/Documents/PersonalSpace/RailsSpace/PetProjects/book-sharing/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250522-8305-4f0tzp sitelibdir\=./.gem.20250522-8305-4f0tzp clean

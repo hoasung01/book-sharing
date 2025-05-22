@@ -1,0 +1,18 @@
+current directory: /Users/hoasung01/Documents/PersonalSpace/RailsSpace/PetProjects/book-sharing/vendor/bundle/ruby/3.3.0/gems/erb-5.0.1/ext/erb/escape
+/Users/hoasung01/.asdf/installs/ruby/3.3.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/hoasung01/Documents/PersonalSpace/RailsSpace/PetProjects/book-sharing/vendor/bundle/ruby/3.3.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250522-8305-u1fx4c sitelibdir\=./.gem.20250522-8305-u1fx4c clean
+
+current directory: /Users/hoasung01/Documents/PersonalSpace/RailsSpace/PetProjects/book-sharing/vendor/bundle/ruby/3.3.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250522-8305-u1fx4c sitelibdir\=./.gem.20250522-8305-u1fx4c
+compiling escape.c
+linking shared-object erb/escape.bundle
+
+current directory: /Users/hoasung01/Documents/PersonalSpace/RailsSpace/PetProjects/book-sharing/vendor/bundle/ruby/3.3.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250522-8305-u1fx4c sitelibdir\=./.gem.20250522-8305-u1fx4c install
+/opt/homebrew/bin/ginstall -c -m 0755 escape.bundle ./.gem.20250522-8305-u1fx4c/erb
+
+current directory: /Users/hoasung01/Documents/PersonalSpace/RailsSpace/PetProjects/book-sharing/vendor/bundle/ruby/3.3.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250522-8305-u1fx4c sitelibdir\=./.gem.20250522-8305-u1fx4c clean
