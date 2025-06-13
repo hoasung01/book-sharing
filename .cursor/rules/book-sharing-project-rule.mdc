@@ -1,0 +1,89 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Book Sharing Project Rules
+
+## Project Overview
+This is a Rails application for sharing and managing books. The application allows users to create, share, and manage their book collections.
+
+## Project Structure
+
+### Controllers
+- [BooksController](mdc:app/controllers/books_controller.rb): Handles all book-related actions
+  - CRUD operations for books
+  - Includes BookRules for validation
+- [UsersController](mdc:app/controllers/users_controller.rb): Manages user-related actions
+  - Currently implements index action for user listing
+
+### Models
+- Book: Represents a book in the system
+  - Required fields: title, author, isbn
+  - Optional fields: description, published_year
+- User: Represents a user in the system
+  - Basic fields: name, email
+
+### Views
+- Book views are located in [app/views/books/](mdc:app/views/books)
+- User views are located in [app/views/users/](mdc:app/views/users)
+
+### Rules and Validations
+
+#### Book Creation Rules
+1. Required Fields:
+   - Title must be present
+   - Author must be present
+   - ISBN must be present and valid (10 or 13 digits)
+   - Published year must be between 1900 and current year
+
+2. ISBN Validation:
+   - Must be either 10 or 13 digits
+   - Special characters are stripped during validation
+
+3. Year Validation:
+   - Must be a valid year between 1900 and current year
+   - Must be a number
+
+#### User Management Rules
+1. User Listing:
+   - Displays user name, email, and join date
+   - Provides link to user profile
+
+## Code Style Guidelines
+
+### Controller Conventions
+1. Use before_action for common operations
+2. Keep controllers focused on their primary responsibility
+3. Use concerns for shared functionality
+4. Implement proper error handling and user feedback
+
+### View Conventions
+1. Use Tailwind CSS for styling
+2. Maintain consistent layout structure
+3. Implement responsive design
+4. Use semantic HTML elements
+
+### Security Guidelines
+1. Use strong parameters for all form submissions
+2. Implement proper authentication and authorization
+3. Validate all user inputs
+4. Protect against common security vulnerabilities
+
+## Testing Requirements
+1. Write tests for all model validations
+2. Test controller actions
+3. Implement integration tests for critical user flows
+4. Maintain good test coverage
+
+## Deployment Guidelines
+1. Follow Rails deployment best practices
+2. Use environment variables for sensitive data
+3. Implement proper logging
+4. Set up monitoring and error tracking
+
+## Documentation
+1. Keep code documentation up to date
+2. Document all public APIs
+3. Maintain clear README files
+4. Document any complex business logic
